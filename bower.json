@@ -33,11 +33,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "bootstrap": "3.3.6",
-    "bootstrap-sass": "3.3.6"
+    "bootstrap": "v4-dev"
   },
   "exportsOverride": {
-    "bootstrap-sass": {},
     "bootstrap": {
       "js": "dist/js/bootstrap.**js",
       "fonts": "dist/fonts/**/*"
