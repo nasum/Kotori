@@ -33,12 +33,12 @@ $brand-hatena: #178fde;
 }
 
 body {
-	margin-top: $navbar-height;
+	// margin-top: $navbar-height;
 }
 
 .social-button {
 	position: relative;
-	padding: $padding-large-vertical 0;
+	padding: $spacer-y 0;
 	margin: 0 auto !important;
 	overflow: hidden;
 	> ul {
@@ -64,7 +64,7 @@ body {
 }
 
 .social {
-	padding: $padding-large-vertical 0;
+	padding: $spacer-y 0;
 	background: $gray-lighter;
 }
 
@@ -96,10 +96,10 @@ body {
 		font-family: Montserrat, sans-serif;
 	}
 	.download {
-		margin: $line-height-computed auto ($line-height-computed * 0.5);
+		margin: $spacer auto ($spacer * 0.5);
 	}
 	.basedon {
-		margin: ($line-height-computed * 0.5) auto;
+		margin: ($spacer * 0.5) auto;
 		color: $gray-light;
 		text-shadow: #fff 0 1px 2px;
 	}
@@ -108,7 +108,7 @@ body {
 
 
 section.section {
-	padding: ($padding-large-vertical * 10) 0;
+	padding: ($spacer-y * 10) 0;
 	&.section-default {
 		background-color: $body-bg;
 	}
@@ -116,7 +116,7 @@ section.section {
 		background-color: lighten($brand-honoka, 15%);
 	}
 	.subtitle {
-		margin-bottom: $line-height-computed;
+		margin-bottom: $spacer;
 		text-align: center;
 		h2 {
 			margin-top: 0;
@@ -173,7 +173,7 @@ section.section {
 .japanese-font {
 	.well {
 		> h3 {
-			margin-top: $line-height-computed;
+			margin-top: $spacer;
 		}
 	}
 }
@@ -209,7 +209,7 @@ section.section {
 			}
 		}
 		li {
-			padding: $padding-base-vertical $padding-large-horizontal;
+			padding: $spacer-y $spacer-x;
 		}
 	}
 }
@@ -224,12 +224,12 @@ section.section {
 }
 
 footer {
-	padding: $padding-large-vertical * 4 0;
+	padding: $spacer-y * 4 0;
 	color: $gray-lighter;
 	background-color: $gray-dark;
 	.copyright {
-		padding-top: $padding-large-vertical;
-		padding-bottom: $padding-large-vertical;
+		padding-top: $spacer-y;
+		padding-bottom: $spacer-y;
 	}
 }
 
