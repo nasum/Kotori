@@ -38,7 +38,7 @@ body {
 
 .social-button {
 	position: relative;
-	padding: $spacer-y 0;
+	padding: ($spacer-y * 0.5) 0;
 	margin: 0 auto !important;
 	overflow: hidden;
 	> ul {
@@ -94,6 +94,7 @@ body {
 	h1,
 	.h1 {
 		font-family: Montserrat, sans-serif;
+		font-size: 4.35rem;
 	}
 	.download {
 		margin: $spacer auto ($spacer * 0.5);
@@ -108,7 +109,7 @@ body {
 
 
 section.section {
-	padding: ($spacer-y * 10) 0;
+	padding: ($spacer-y * 8) 0;
 	&.section-default {
 		background-color: $body-bg;
 	}
@@ -155,6 +156,7 @@ section.section {
 		}
 		.point-description {
 			h4 {
+				margin-top: .5rem;
 				text-align: center;
 			}
 			p {
@@ -171,7 +173,7 @@ section.section {
 }
 
 .japanese-font {
-	.well {
+	.card {
 		> h3 {
 			margin-top: $spacer;
 		}
@@ -235,7 +237,7 @@ footer {
 
 .bootstrap-default {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	> h3 {
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 24px;
