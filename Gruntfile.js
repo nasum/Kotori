@@ -67,7 +67,7 @@ module.exports = function(grunt) {
 			},
 			assets: {
 				options: {
-					loadPath: ['scss/']
+					loadPath: ['scss/', 'bower_components/']
 				},
 				files: [{
 					expand: true,
