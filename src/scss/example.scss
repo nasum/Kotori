@@ -4,6 +4,7 @@
 
 @import "honoka/variables";
 @import "honoka/mixins";
+@import "bootstrap/scss/mixins";
 
 $brand-honoka: #fdcea0;
 $brand-twitter: #55acee;
@@ -30,6 +31,17 @@ $brand-hatena: #178fde;
 	font-family: Verdana;
 	font-weight: bold;
 	content: "B!";
+}
+
+.bd-navbar {
+	@include media-breakpoint-down(sm) {
+		.nav-link, .nav-item {
+			float: none;
+			+ .nav-link {
+				margin-left: 0;
+			}
+		}
+	}
 }
 
 body {
